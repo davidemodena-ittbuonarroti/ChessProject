@@ -8,11 +8,11 @@ public class Position{
     }
 
     public int getRow(){
-        //complete
+        return row;
     }
 
-    public int getCol(){
-        //complete
+    public char getCol(){
+        return col;
     }
 
     public boolean setPosition(int row,int col){
