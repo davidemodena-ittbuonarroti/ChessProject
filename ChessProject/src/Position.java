@@ -28,6 +28,11 @@ public class Position{
     }
 
     public boolean equals(Position pos){
-
+        if(pos.getRow() == row && pos.getCol() == col){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
