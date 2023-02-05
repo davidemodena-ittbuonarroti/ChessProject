@@ -2,8 +2,9 @@ public class Position{
     private int row;
     private char col;
 
-    public Position(int row, int col){
-        //complete
+    public Position(int row, char col){
+        this.row = row;
+        this.col = col;
     }
 
     public int getRow(){
