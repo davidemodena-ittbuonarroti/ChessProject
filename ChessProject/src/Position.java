@@ -16,7 +16,14 @@ public class Position{
     }
 
     public boolean setPosition(int row,char col){
-
+        if(isValid(row, col)){
+            this.row = row;
+            this.col = col;
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public boolean setPosition(Position pos){
