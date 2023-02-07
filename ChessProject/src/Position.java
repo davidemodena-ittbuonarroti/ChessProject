@@ -27,6 +27,10 @@ public class Position{
         //complete
     }
 
+    public boolean isValid(int row, char col){
+        
+    }
+
     public boolean equals(Position pos){
         if(pos.getRow() == row && pos.getCol() == col){
             return true;
