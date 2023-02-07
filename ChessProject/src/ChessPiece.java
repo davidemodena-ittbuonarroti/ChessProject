@@ -20,6 +20,6 @@ public abstract class ChessPiece{
         return moved;
     }
 
-    public abstract ArrayList<Position> validMoves(){
+    public abstract ArrayList<Position> validMoves();
         //to be completed in each chesspiece
-    }
+
