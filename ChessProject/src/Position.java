@@ -28,7 +28,12 @@ public class Position{
     }
 
     public boolean isValid(int row, char col){
-        
+        if(row>=1 && row<=8 && col >= 'a' && col <= 'h'){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public boolean equals(Position pos){
