@@ -21,5 +21,3 @@ public abstract class ChessPiece{
     public abstract ArrayList<Position> validMoves(){
         //to be completed in each chesspiece
     }
-
-}
