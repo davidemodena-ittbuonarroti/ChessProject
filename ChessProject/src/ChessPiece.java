@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 public abstract class ChessPiece {
     private Position pos;
@@ -20,4 +21,7 @@ public abstract class ChessPiece {
     }
 
     public abstract ArrayList<Position> validMoves();
+=======
+public class ChessPiece {
+>>>>>>> develop
 }
