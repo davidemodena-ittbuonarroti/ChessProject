@@ -27,7 +27,14 @@ public class Position{
     }
 
     public boolean setPosition(Position pos){
-        //complete
+        if(isValid(pos.getRow(),pos.getCol())){
+            this.row=pos.getRow();
+            this.col=pos.getCol();
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public boolean isValid(int row, char col){
