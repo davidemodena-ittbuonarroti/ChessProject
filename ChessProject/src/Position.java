@@ -15,8 +15,8 @@ public class Position{
         return col;
     }
 
-    public boolean setPosition(int row,int col){
-        //complete
+    public boolean setPosition(int row,char col){
+
     }
 
     public boolean setPosition(Position pos){
