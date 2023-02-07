@@ -1,3 +1,4 @@
+
 public abstract class ChessPiece {
     private Position pos;
 
@@ -17,4 +18,6 @@ public abstract class ChessPiece {
         }
         return moved;
     }
+
+    public abstract ArrayList<Position> validMoves();
 }
