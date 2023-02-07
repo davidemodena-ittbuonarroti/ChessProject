@@ -15,16 +15,35 @@ public class Position{
         return col;
     }
 
-    public boolean setPosition(int row,int col){
-        //complete
+    public boolean setPosition(int row,char col){
+        if(isValid(row, col)){
+            this.row = row;
+            this.col = col;
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public boolean setPosition(Position pos){
-        //complete
+        if(isValid(pos.getRow(),pos.getCol())){
+            this.row=pos.getRow();
+            this.col=pos.getCol();
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
-    public boolean isValid(){
-        //complete
+    public boolean isValid(int row, char col){
+        if(row>=1 && row<=8 && col >= 'a' && col <= 'h'){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public boolean equals(Position pos){
