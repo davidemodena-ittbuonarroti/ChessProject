@@ -33,6 +33,7 @@ public class tower extends ChessPiece {
     @Override
     public boolean moveTo(Position pos) {
         return super.moveTo(pos);
+        
     }
 
     @Override
