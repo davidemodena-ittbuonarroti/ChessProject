@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class ChessPiece{
     private Position pos;
 
@@ -9,7 +11,7 @@ public abstract class ChessPiece{
         return this.pos;
     }
 
-    public boolean moveTo(Postion pos){
+    public boolean moveTo(Position pos){
         boolean moved=false;
         if(this.validMoves().contains(pos)){
             this.pos = pos;
@@ -17,7 +19,9 @@ public abstract class ChessPiece{
         }
         return moved;
     }
-
-    public abstract ArrayList<Position> validMoves(){
+    public abstract ArrayList<Position> validMoves();
         //to be completed in each chesspiece
-    }
+
+}
+
+
