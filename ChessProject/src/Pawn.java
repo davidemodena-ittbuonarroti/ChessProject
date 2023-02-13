@@ -27,11 +27,17 @@ public class Pawn extends ChessPiece{
         return moves;
     }
 
+    @Override
     public boolean moveTo(Position pos){
         boolean moved = super.moveTo(pos);
         if(moved){
             firstMove = false;
         }
         return moved;
+    }
+
+    @Override
+    public Position getPosition() {
+        return super.getPosition();
     }
 }
