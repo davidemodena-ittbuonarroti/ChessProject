@@ -11,18 +11,18 @@ public class Main {
 
             switch (scelta){
                 case 0:
+                    System.out.println("Grazie e arrivederci!");
+                    break;
+                case 1:
 
                     break;
-                case 0:
+                case 2:
 
                     break;
-                case 0:
+                case 3:
 
                     break;
-                case 0:
-
-                    break;
-                case 0:
+                case 4:
 
                     break;
                 default:
