@@ -27,10 +27,15 @@ public class Main {
                     System.out.println("Le mosse disponibili sono: "+t.validMoves());
                     break;
                 case 2:
-
+                    System.out.print("Inserisci una riga: ");
+                    row = input.nextInt();
+                    System.out.println("Inserisci una colonna: ");
+                    col = input.next().charAt(0);
+                    Pawn p = new Pawn(new Position(row,col));
+                    System.out.println("Le mosse disponibili sono: "+p.validMoves());
                     break;
                 case 3:
-
+                    
                     break;
                 case 4:
 
