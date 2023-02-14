@@ -36,7 +36,7 @@ public class Main {
 
                     break;
                 default:
-
+                    System.out.println("Errore! Riprova.");
                     break;
             }
         }while(scelta!=0);
