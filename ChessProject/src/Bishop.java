@@ -6,11 +6,11 @@ public class Bishop extends ChessPiece{
         super(pos);
     }
 
-    public List<Position> validMoves() {
-        List<Position> validMoves = new ArrayList<Position>();
+    public ArrayList<Position> validMoves() {
+        ArrayList<Position> validMoves = new ArrayList<Position>();
         for (int row = 0; row < 8; row++) {
             for (int col = 0; col < 8; col++) {
-                if (Math.abs(row - position.getRow()) == Math.abs(col - position.getCol())) {
+                if (Math.abs(row - getPosition().getRow()) == Math.abs(col - getPosition().getCol())) {
                     validMoves.add(new Position(row, col));
                 }
             }
