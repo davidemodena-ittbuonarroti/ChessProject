@@ -43,7 +43,12 @@ public class Main {
                     System.out.println("Le mosse disponibili sono: "+b.validMoves());
                     break;
                 case 4:
-
+                    System.out.print("Inserisci una riga: ");
+                    row = input.nextInt();
+                    System.out.println("Inserisci una colonna: ");
+                    col = input.next().charAt(0);
+                    Horse h = new Horse(new Position(row,col));
+                    System.out.println("Le mosse disponibili sono: "+h.validMoves());
                     break;
                 default:
                     System.out.println("Errore! Riprova.");
