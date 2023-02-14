@@ -36,12 +36,8 @@ public class Position{
             return false;
         }
     }
-
-<<<<<<< HEAD
+    
     public static boolean isValid(int row, char col){
-=======
-    public boolean isValid(int row, char col){
->>>>>>> develop
         if(row>=1 && row<=8 && col >= 'a' && col <= 'h'){//checks if the position is included in the chessboard
             return true;
         }
