@@ -27,6 +27,7 @@ public class tower extends ChessPiece {
             }
             j++;
         }
+        
         return P;
     }
 
